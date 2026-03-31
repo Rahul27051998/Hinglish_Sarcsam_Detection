@@ -1,8 +1,7 @@
 venv/
 __pycache__/
 *.pyc
-models/
-results/
-*.pkl
 .env
 .DS_Store
+# Ignore only trained model files
+models/*.pkl
